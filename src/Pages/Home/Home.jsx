@@ -7,6 +7,7 @@ import OurMenu from './OurMenu';
 import ChefRecomand from './ChefRecomand';
 import HomeBanner3 from './HomeBanner3';
 import Testimonial from './Testimonial';
+// import CommonBanner from '../../Shared/CommonBanner';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <ChefRecomand></ChefRecomand>
             <HomeBanner3></HomeBanner3>
             <Testimonial></Testimonial>
+            {/* <CommonBanner></CommonBanner> */}
 
 
         </div>

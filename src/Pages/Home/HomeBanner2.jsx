@@ -7,10 +7,10 @@ const HomeBanner2 = () => {
     return (
 
 
-        <Parallax blur={{ min: -50, max: 50 }} strength={-200} bgImage={hb2} className='max-h-[800px]'>
-            <div className="hero my-10  min-h-screen  ">
+        <Parallax blur={{ min: -50, max: 50 }} strength={-200} bgImage={hb2} className='max-h-screen'>
+            <div className="hero my-10   min-h-screen  ">
 
-                <div className="hero-content text-center">
+                <div className="hero text-center">
                     <div className="max-w-screen-lg bg-white p-4 py-10">
                         <h1 className="text-5xl font-bold logo-font mb-4">Bhuri Bhoj</h1>
                         <p className="">

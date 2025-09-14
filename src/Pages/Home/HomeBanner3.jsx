@@ -10,18 +10,18 @@ const HomeBanner3 = () => {
             <div className='mt-24 text-white' >
                 <Headline subheading={'check it out'} heading={'from our menu'}></Headline>
             </div>
-            <div className="hero    min-h-screen">
+            <div className="hero  min-h-screen">
                 <div className="hero-content text-center">
                     <div className="max-w-3xl">
-                        <div className="hero  min-h-screen">
+                        <div className="  min-h-screen">
 {/* flex-col */ } 
-{/* justify-center flex */}
+{/* justify-center flex   flex mx-auto*/   }
 
 
 
                             <div className="flex   flex-col  gap-2 lg:flex-row">
 
-                               <div className='flex mx-auto'>
+                               <div className=''>
                                  <img
                                     src={b3}
                                     className="max-w-sm  rounded-lg shadow- mx-auto"
