@@ -1,9 +1,12 @@
 import React from 'react';
 import useMenu from '../../Hooks/useMenu';
 import Headline from '../../Shared/Headline';
+import { Link } from 'react-router-dom';
 
 const OurMenu = () => {
     const [menu] = useMenu();
+    const commonMenu = menu.filter(commonMenu => commonMenu.category === 'dessert')
+    // console.log(commonMenu)
     const modify = menu.slice(0, 6)
     // console.log(modify)
     return (
@@ -33,9 +36,11 @@ const OurMenu = () => {
                     )
                 }
             </div>
+           <Link to={`/ourMenu/dessert`}>
             <div className='text-center'>
                 <button className='btn  my-5 text-black mx-4 rounded-md border-b-2 border-b-black bg-transparent'>View Full Menu</button>
             </div>
+           </Link>
 
         </div>
     );

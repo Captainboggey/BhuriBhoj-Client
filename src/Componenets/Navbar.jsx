@@ -5,7 +5,7 @@ const Navbar = () => {
     const navOptions = <>
         <Link to={'/'}> <li><h1>Home</h1></li></Link>
         <Link to={'/menu'}> <li><h1>Menu</h1></li></Link>
-        <Link to={'/ourShop'}> <li><h1>Our Shop</h1></li></Link>
+        <Link to={'/ourShop/dessert'}> <li><h1>Our Shop</h1></li></Link>
         <Link> <li><h1>Contact Us</h1></li></Link>
     </>
     return (

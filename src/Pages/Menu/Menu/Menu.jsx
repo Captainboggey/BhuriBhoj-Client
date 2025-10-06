@@ -32,7 +32,7 @@ const Menu = () => {
                       <CommonBanner coverImg={m2} coverTitle={'Pizza'}></CommonBanner>
                       <CategoryHook name={'pizza'}></CategoryHook>
                       <CommonBanner coverImg={m2} coverTitle={'Soups'}></CommonBanner>
-                      <CategoryHook name={'soup'}></CategoryHook>
+                      <CategoryHook name={'soup'} category={menuItems}></CategoryHook>
         </div>
     );
 };

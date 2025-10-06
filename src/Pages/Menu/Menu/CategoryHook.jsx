@@ -1,5 +1,6 @@
 import React from 'react';
 import useMenu from '../../../Hooks/useMenu';
+import { Link } from 'react-router-dom';
 
 const CategoryHook = ({name}) => {
     const [menu]=useMenu();
@@ -26,6 +27,7 @@ const CategoryHook = ({name}) => {
                                 <p className='text-yellow-400'>{item.price}$</p>
                             </div>
                             
+                            
                         </div>
 
 
@@ -34,9 +36,11 @@ const CategoryHook = ({name}) => {
                 
             </div>
             
+<Link to={`/ourShop/${name}`}>
  <div className='text-center'>
                 <button className='btn  my-5 text-black mx-4 rounded-md border-b-2 border-b-black bg-transparent'>View Full Menu</button>
             </div>
+</Link>
         </div>
     );
 };
