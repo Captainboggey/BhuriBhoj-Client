@@ -55,7 +55,7 @@ const Contact = () => {
 
             <Headline heading={'contact form'} subheading={'Send Us a Message'}></Headline>
 
-            <div className="card bg-[#F3F3F3] w-full  max-w-screen shrink-0 shadow-2xl">
+            <div className="card bg-[#F3F3F3] w-full  max-w-screen shrink-0 shadow-2xl mb-10">
                 <form className="card-body">
                     <div className='flex w-full gap-6 justify-around'>
                         <div className="form-control w-full">
