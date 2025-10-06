@@ -36,7 +36,7 @@ const OurMenu = () => {
                     )
                 }
             </div>
-           <Link to={`/ourMenu/dessert`}>
+           <Link to={`/ourShop/salad`}>
             <div className='text-center'>
                 <button className='btn  my-5 text-black mx-4 rounded-md border-b-2 border-b-black bg-transparent'>View Full Menu</button>
             </div>
